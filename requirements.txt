@@ -6,7 +6,7 @@ pytest-cov==2.8.1
 
 # Data crunching
 pandas==1.0.0
-numpy==1.18.1
+numpy==1.16.0
 
 # Visualization
 plotly==4.5.2
@@ -17,3 +17,5 @@ dash==0.21.1
 dash-renderer==0.13.0  
 dash-html-components==0.11.0
 dash-core-components==0.23.0  
+
+waitress==1.4.3

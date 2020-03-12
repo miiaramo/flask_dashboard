@@ -1,5 +1,4 @@
-# The binary to build (just the basename).
-MODULE := flask_dashboard
+MODULE := dashboard
 
 run:
 	@python -m $(MODULE)
