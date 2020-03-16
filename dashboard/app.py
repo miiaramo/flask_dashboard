@@ -190,7 +190,7 @@ class Dashboard:
     def run():
         import os
         try:
-            PORT = os.getenv["PORT"]
+            PORT = os.environ["PORT"]
         except:
             PORT = 8000
         serve(app.server, host="0.0.0.0", port=PORT)
