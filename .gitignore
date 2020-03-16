@@ -13,3 +13,7 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
+
+# Jupyter notebook for testing with data
+testing.ipynb
+.ipynb_checkpoints
